@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-color: #000;
+    }
+    
+    .matrix {
+      font-family: monospace;
+      color: #0f0;
+      font-size: 36px;
+      width: 500px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+    
+    .text {
+      animation: matrix 5s linear infinite;
+    }
+    
+    @keyframes matrix {
+      0% {
+        transform: translateY(0);  
+      }
+      100% {
+        transform: translateY(-100%);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="matrix">
+    <span class="text">Chào mừng bạn đến với Ma trận</span>
+  </div>
+
+</body>
+</html>
